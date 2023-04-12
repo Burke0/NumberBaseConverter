@@ -16,14 +16,14 @@ public class BaseConverter
 class AppFrame extends JFrame
 					implements ActionListener, ChangeListener, DocumentListener
 {
-	JButton 						exitButton;
-	JLabel 							textLabel;
-	JSpinner 						spinner;
-	SpinnerNumberModel 				spinnerTwoToTwentyModel;
-	JTextField						inputTF;
-	JTextField 						outputTF;
-	String 							inStr;
-	int 							spinNum=2;
+	JButton				exitButton;
+	JLabel				textLabel;
+	JSpinner			spinner;
+	SpinnerNumberModel		spinnerTwoToTwentyModel;
+	JTextField			inputTF;
+	JTextField			outputTF;
+	String				inStr;
+	int				spinNum=2;
 
 	AppFrame()
 	{
