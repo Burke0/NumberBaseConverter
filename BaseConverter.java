@@ -19,11 +19,11 @@ class AppFrame extends JFrame
 	JButton				exitButton;
 	JLabel				textLabel;
 	JSpinner			spinner;
-	SpinnerNumberModel		spinnerTwoToTwentyModel;
+	SpinnerNumberModel	spinnerTwoToTwentyModel;
 	JTextField			inputTF;
 	JTextField			outputTF;
 	String				inStr;
-	int				spinNum=2;
+	int					spinNum=2;
 
 	AppFrame()
 	{
